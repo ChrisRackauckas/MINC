@@ -1,0 +1,1 @@
+Repository for Mean-Independent Noise Control of Cell Fates via Intermediate States Rackauckas, Christopher et al. describing the MINC mechanism and the effects of stochasticity on boundary sharpening.
