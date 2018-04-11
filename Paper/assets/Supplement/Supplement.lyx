@@ -1,0 +1,503 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\rightmargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Supplemental Information
+\begin_inset Newline newline
+\end_inset
+
+Mean-Independent Noise Control via Intermediate States
+\end_layout
+
+\begin_layout Author
+Christopher Rackauckas, Thomas Schilling, and Qing Nie
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename S1_MultHists.pdf
+	scale 85
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Mean and variance knockdown distributions with multiplicative noise.
+ (A)-(H) Histograms depicting the 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ distribution due to multiplicative noise.
+ The models were solved using the Euler-Maruyama method on the timespan
+ of 
+\begin_inset Formula $t=[0,200]$
+\end_inset
+
+, and re-solved with the associated parameter reduced by 90%.
+ The value 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ was calculated from these two series, and this was repeated 10,000 times.
+ More details outlining the experiment are found in the STAR Methods.
+ Figures (A)-(D) correspond to the 
+\begin_inset Formula $\zeta$
+\end_inset
+
+'s calculated for [RA] on the respective models.
+ Figures (E)-(H) correspond to the 
+\begin_inset Formula $\zeta$
+\end_inset
+
+'s calculated for [RA-RAR] on the models the models respectively.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename S2_SpatialDiagram.pdf
+	scale 85
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagram of Spatial Experiment.
+ A diagram of the numerical scheme for the 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ histogram experiments for spatial location vs threshold sharpness.
+ The SPDE model is solved and the 50% concentration point at each location
+ along the x-axis is found.
+ Then the mean and the variance of these x locations are saved.
+ This process is then repeated with reduced binding protein and the resulting
+ mean and variance values are compared with the previous to get a value
+ for 
+\begin_inset Formula $\zeta$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename S3_cyp_shift.pdf
+	scale 66
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Boundary sharpening disruption extended figures.
+ 
+\series bold
+(A) 
+\series default
+Diagram of the extended RA model with downstream Hox-Krox signaling.
+ Shown is the signaling diagram for the retinoic acid model starting with
+ the diffusive 
+\begin_inset Formula $RA_{out}$
+\end_inset
+
+ which enters the cell to become 
+\begin_inset Formula $RA_{in}$
+\end_inset
+
+ and binds to BP to become 
+\begin_inset Formula $RA-BP$
+\end_inset
+
+, which then binds to 
+\begin_inset Formula $RAR$
+\end_inset
+
+ produce 
+\begin_inset Formula $RA-RAR$
+\end_inset
+
+.
+ This 
+\begin_inset Formula $RA-RAR$
+\end_inset
+
+ produces 
+\begin_inset Formula $Cyp$
+\end_inset
+
+ which deactivates (and thus degrades) the intercellular 
+\begin_inset Formula $RA_{in}$
+\end_inset
+
+.
+ Additionally, 
+\begin_inset Formula $RA-RAR$
+\end_inset
+
+ acts as a signal to the downstream 
+\begin_inset Formula $Hox$
+\end_inset
+
+ and 
+\begin_inset Formula $Krox$
+\end_inset
+
+ which are mutually antagonistic.
+ 
+\series bold
+(B) 
+\series default
+Mean shift of the RAR signal due to cyp knockdown.
+ For the wildtype and Cyp26 setups in the extended RA model with Hox-Krox
+ signaling, the mean of the [
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+RA-RAR]
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ gradient was calculated between each of the 10 runs at the ending timepoint.
+ 
+\series bold
+(C) 
+\series default
+Sharpness Index.
+ The y-axis corresponds to the sharpness index defined in (Zhang et al.,
+ 2012).
+ The x-axis shows time in terms of hpf.
+ Each condition was ran 10 times and the results were averaged.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename S4_cyp_data.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Characterization of 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ due to previous data.
+ 
+\series bold
+(A)
+\series default
+ Scatter plot of the data points from (Sosnik et al., 2016).
+ 
+\series bold
+(B)
+\series default
+ Pairwise Differences.
+ The percent change in mean and variance was calculated pairwise between
+ each pair of higher and lower data point.
+ A scatter plot of the results is shown.
+ 
+\series bold
+(C)
+\series default
+ Estimated CDF.
+ Depiction of the commutative probability distribution for 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ according to the parameter search scheme from the parameter search scheme
+ on RMF.
+ The simulations which produced these distributions is discussed in the
+ STAR Methods.
+ Shown are the kernel density estimates from the 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ values from the stochastic simulations.
+ The different colored lines show the distributions for different noise
+ types.
+ The red line depict experimental CDF for 
+\begin_inset Formula $\zeta$
+\end_inset
+
+ computed using the pairwise data points.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename S5_successful_sharpening_measures.pdf
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Additional characterization of successful sharpening via other measures.
+ Binding protein production taken as 5, 15, …, 105 and Hox-Krox regulatory
+ noise was taken as 0.1, 0.125, …, 0.3 and each pairing in the grid was solved
+ once.
+ The effective RA noise was calculated according to the measure from the
+ STAR Methods section.
+ In 
+\series bold
+(A)
+\series default
+ a successful sharpening event was characterized by having the maximum displacem
+ent between Hox and Krox dominated cells of less than 
+\begin_inset Formula $3$
+\end_inset
+
+ cell lengths.
+ In 
+\series bold
+(B) 
+\series default
+a successful sharpening event was characterized by having the mean displacement
+ betewen Hox and Krox dominated cells as less than 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ of a cell length.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,152 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4223,        143]
+NotebookOptionsPosition[      3536,        114]
+NotebookOutlinePosition[      3884,        129]
+CellTagsIndexPosition[      3841,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Checking number of steady states", "Subsubsection",
+ CellChangeTimes->{{3.602974291931406*^9, 3.602974297959699*^9}, {
+  3.6029745574459033`*^9, 3.6029745610764904`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Beta]", " ", "-", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"\[Gamma]", "+", "\[Eta]"}], " ", ")"}], "A"}], "+", 
+        RowBox[{"\[Delta]", " ", "B"}]}], " ", "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Gamma]", " ", "A"}], " ", "-", " ", 
+        RowBox[{"\[Delta]", " ", "B"}]}], "\[Equal]", "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"A", ",", "B"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6030416214480844`*^9, 3.603041658255329*^9}, {
+  3.667949310477667*^9, 3.667949310839371*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"A", "\[Rule]", 
+     FractionBox["\[Beta]", "\[Eta]"]}], ",", 
+    RowBox[{"B", "\[Rule]", 
+     FractionBox[
+      RowBox[{"\[Beta]", " ", "\[Gamma]"}], 
+      RowBox[{"\[Delta]", " ", "\[Eta]"}]]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.603041676552334*^9, 3.667949312019512*^9}]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"A1ss", "=", " ", 
+   FractionBox["\[Beta]", "\[Eta]"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B1ss", "=", 
+   FractionBox[
+    RowBox[{"\[Beta]", " ", "\[Gamma]"}], 
+    RowBox[{"\[Delta]", " ", "\[Eta]"}]]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6030417106249676`*^9, 3.6030417280203547`*^9}, 
+   3.6030419319560757`*^9, {3.667949318992206*^9, 3.6679493225992537`*^9}, {
+   3.6680462403209753`*^9, 3.6680462557831717`*^9}, {3.668046967878902*^9, 
+   3.6680469714404583`*^9}}],
+
+Cell[TextData[{
+ "Put to ",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{"T", 
+     AdjustmentBox["E",
+      BoxBaselineShift->0.5,
+      BoxMargins->{{-0.3, 0}, {0, 0}}], "X"}],
+    SingleLetterItalics->False], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.6029752505445957`*^9, 3.6029752535547333`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TeXForm", "[", "B1ss", "]"}]], "Input",
+ CellChangeTimes->{{3.602975256502832*^9, 3.6029752605627236`*^9}, {
+  3.603041911904817*^9, 3.6030419120649295`*^9}}],
+
+Cell["\\frac{\\beta  \\gamma }{\\delta  \\eta }", "Output",
+ CellChangeTimes->{3.602975260992029*^9, 3.603041919715375*^9, 
+  3.6679493308103514`*^9, 3.6680462575133295`*^9, 3.6680469748632164`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"TeXForm", "[", "A1ss", "]"}]], "Input",
+ CellChangeTimes->{{3.6029752732227397`*^9, 3.602975277386709*^9}, {
+  3.6030419162248917`*^9, 3.6030419163049307`*^9}}],
+
+Cell["\\frac{\\beta }{\\eta }", "Output",
+ CellChangeTimes->{3.602975277812036*^9, 3.6030419169644012`*^9, 
+  3.6679493320520616`*^9, 3.668046258391178*^9}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{624, 644},
+WindowMargins->{{-4087, Automatic}, {Automatic, 71}},
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 176, 2, 39, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[780, 28, 710, 19, 31, "Input"],
+Cell[1493, 49, 361, 10, 48, "Output"]
+}, Open  ]],
+Cell[1869, 62, 530, 12, 86, "Input"],
+Cell[2402, 76, 318, 11, 33, "Text"],
+Cell[CellGroupData[{
+Cell[2745, 91, 182, 3, 31, "Input"],
+Cell[2930, 96, 198, 2, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3165, 103, 184, 3, 31, "Input"],
+Cell[3352, 108, 156, 2, 45, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

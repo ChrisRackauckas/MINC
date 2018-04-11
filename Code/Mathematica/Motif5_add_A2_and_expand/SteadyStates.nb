@@ -1,0 +1,132 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4369,        123]
+NotebookOptionsPosition[      4016,        106]
+NotebookOutlinePosition[      4394,        122]
+CellTagsIndexPosition[      4351,        119]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Checking number of steady states", "Subsubsection",
+ CellChangeTimes->{{3.602974291931406*^9, 3.602974297959699*^9}, {
+  3.6029745574459033`*^9, 3.6029745610764904`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Beta]", "-", 
+        RowBox[{"b", " ", "T"}], " ", "+", " ", 
+        RowBox[{"c", " ", "A"}]}], "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"b", " ", "T"}], " ", "-", 
+        RowBox[{"c", " ", "A"}], "  ", "-", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"\[Gamma]", " ", "P"}], "+", "\[Eta]"}], " ", ")"}], "A"}],
+         "+", 
+        RowBox[{"\[Delta]", " ", "B"}]}], " ", "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"a2", " ", "B"}], " ", "-", "  ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           FractionBox[
+            RowBox[{"\[Alpha]", " ", "C"}], 
+            RowBox[{"\[Omega]", " ", "+", " ", "C"}]], " ", "+", " ", 
+           RowBox[{"g", " ", "P"}]}], ")"}], " ", "A2"}]}], "\[Equal]", " ", 
+       "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Gamma]", " ", "P", " ", "A"}], "+", 
+        RowBox[{"\[Lambda]", " ", "P", " ", "C"}], " ", "+", " ", 
+        RowBox[{"g", " ", "P", " ", "A2"}], "-", 
+        RowBox[{
+         RowBox[{"(", " ", 
+          RowBox[{"\[Delta]", "+", 
+           RowBox[{"\[Nu]", " ", "R"}], " ", "+", " ", "a2"}], ")"}], " ", 
+         "B"}]}], "\[Equal]", "0"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Nu]", " ", "B", " ", "R"}], " ", "-", " ", 
+        RowBox[{"\[Lambda]", " ", "P", " ", "C"}]}], "\[Equal]", "0"}], ",", 
+      " ", 
+      RowBox[{
+       RowBox[{"\[Zeta]", " ", "-", " ", 
+        RowBox[{"\[Nu]", " ", "B", " ", "R"}], " ", "+", " ", 
+        RowBox[{"\[Lambda]", " ", "P", " ", "C"}], " ", "-", " ", 
+        RowBox[{"r", " ", "R"}]}], "\[Equal]", "0"}], ",", " ", 
+      RowBox[{
+       RowBox[{"a", "-", 
+        RowBox[{"\[Lambda]", " ", "P", " ", "C"}], " ", "-", " ", 
+        RowBox[{"\[Gamma]", " ", "P", " ", "A"}], " ", "+", " ", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"\[Delta]", " ", "+", " ", 
+           RowBox[{"\[Nu]", " ", "R"}]}], ")"}], " ", "B"}], "-", 
+        RowBox[{"u", " ", "P"}], "+", 
+        FractionBox[
+         RowBox[{"d", " ", "C"}], 
+         RowBox[{"e", "+", "C"}]]}], "\[Equal]", "0"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "A", ",", "A2", ",", "B", ",", "C", ",", "R", ",", "P", ",", "T"}], 
+     "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6030416214480844`*^9, 3.603041658255329*^9}, {
+  3.608947883885024*^9, 3.6089479598991747`*^9}, {3.6089481228949585`*^9, 
+  3.608948124008522*^9}, {3.6379767274646034`*^9, 3.6379767606507196`*^9}, {
+  3.6379784350057287`*^9, 3.6379784354588437`*^9}, {3.637978506646636*^9, 
+  3.637978606663495*^9}, {3.637978744583105*^9, 3.637978745526307*^9}, {
+  3.637982901849353*^9, 3.637982902450732*^9}, {3.6381903320965586`*^9, 
+  3.6381903398259745`*^9}, {3.6381904043633595`*^9, 3.6381904369821796`*^9}, {
+  3.6383598395734167`*^9, 3.6383598457939916`*^9}, {3.6383811910383544`*^9, 
+  3.6383811924998817`*^9}, {3.638382636450159*^9, 3.638382661767938*^9}, {
+  3.720874105177762*^9, 3.720874105733124*^9}, {3.720874173766637*^9, 
+  3.7208742227549314`*^9}}]
+}, Open  ]]
+},
+WindowSize->{1920, 997},
+WindowMargins->{{Automatic, 4072}, {Automatic, -8}},
+Magnification:>0.9 Inherited,
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (December 4, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 176, 2, 35, "Subsubsection"],
+Cell[758, 26, 3242, 77, 51, "Input"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
